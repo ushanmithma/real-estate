@@ -1,0 +1,53 @@
+@use "sass:color";
+
+@use '../abstracts/variables' as *;
+
+.owl-nav {
+    margin-top: 3rem !important;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    width: 80px !important;
+    height: 80px !important;
+    margin: 0 1.5rem !important;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+    padding: 0 !important;
+    color: $foreground;
+    background: transparent;
+}
+
+.owl-nav .owl-prev .owl-nav-prev > span,
+.owl-nav .owl-next .owl-nav-next > span {
+    vertical-align: middle;
+    font-size: 3em !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: transparent !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:active,
+.owl-theme .owl-nav [class*="owl-"]:focus {
+    outline: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    font-size: 1.5em !important;
+    line-height: 0;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    color: currentColor;
+}
+
+.owl-theme .owl-nav .owl-prev:active,
+.owl-theme .owl-nav .owl-prev:focus,
+.owl-theme .owl-nav .owl-next:active,
+.owl-theme .owl-nav .owl-next:focus {
+    background-color: color.adjust($clr-main, $alpha: -0.4) !important;
+}

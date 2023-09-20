@@ -1,0 +1,24 @@
+
+@use "sass:color";
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as mx;
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.item-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bg-brand {
+  background-image: linear-gradient(to right, var(--background) 50%, $clr-main 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+}

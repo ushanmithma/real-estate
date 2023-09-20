@@ -1,0 +1,16 @@
+{
+  "name": "kingway",
+  "version": "1.0.0",
+  "description": "- Libre Baskerville\r - Lato",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch scss:build/css",
+    "build:sass": "sass scss:build/css --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  }
+}

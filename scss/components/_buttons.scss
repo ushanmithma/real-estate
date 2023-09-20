@@ -1,0 +1,45 @@
+
+@use "sass:color";
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as mx;
+
+.btn {
+  display: inline-block;
+  padding: .4375em 1.75em;
+  border: 0;
+  background: none;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 250ms ease;
+  color: currentColor;
+  text-align: center;
+
+  > * {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  &:focus {
+    outline: 1px solid var(--background);
+    outline-offset: -3px;
+  }
+}
+
+.btn-brand {
+  background-color: var(--clr-main);
+
+  &:hover,
+  &:focus {
+    background-color: var(--clr-main-dark);
+    cursor: pointer;
+  }
+}
+
+.btn-block {
+  width: 100%;
+
+  @include mx.mq ($medium) {
+    width: auto;
+  }
+}

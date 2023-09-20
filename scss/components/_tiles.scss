@@ -1,0 +1,21 @@
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as mx;
+
+.tiles {
+  width: 215.714px;
+  position: absolute;
+  z-index: -1;
+
+  @include mx.mq ($medium) {
+    width: auto;
+  }
+
+  &-right {
+    right: 0;
+  }
+
+  &-left {
+    left: 0;
+  }
+}

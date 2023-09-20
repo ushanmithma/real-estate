@@ -1,0 +1,66 @@
+
+@use "sass:color";
+
+// Colors
+
+$clr-main: #c29938;
+$clr-main-dark: #b8860b;
+$clr-primary: #a99561;
+$clr-secondary: #d2b48c;
+$clr-netural: #eee8aa;
+
+$background: #f5f5f5;
+$foreground: #1b1b1b;
+
+// CSS Variables
+
+:root {
+
+  // Colors
+  --clr-main: #{$clr-main};
+  --clr-main-dark: #{$clr-main-dark};
+  --clr-primary: #{$clr-primary};
+  --clr-secondary: #{$clr-secondary};
+  --clr-netural: #{$clr-netural};
+
+  --background: #{$background};
+  --foreground: #{$foreground};
+
+  --bg-black-transparent-7: rgba(0, 0, 0, 0.7);
+  --bg-black-transparent-4: rgba(0, 0, 0, 0.4);
+
+  --clr-light-gray: #707070;
+
+  --clr-facebook: #1877f2;
+  --clr-whatsapp: #25d366;
+  --clr-instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+  // Fonts
+  --fz-icon: 1.5em;
+
+  // Spacers
+  --spacer: 0.5em;
+
+}
+
+// Breakpoints
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;
+
+// Aspect Ratio
+$aspect-ratio: (
+  "16/9": (
+    "fallback": 56.25%, /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    "value": "16 / 9"
+  ),
+  "4/3": (
+    "fallback": 75%,
+    "value": "4 / 3"
+  ),
+  "1/1": (
+    "fallback": 100%,
+    "value": "1 / 1"
+  )
+);

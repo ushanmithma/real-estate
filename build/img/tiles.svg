@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="431.428" height="892.428" viewBox="0 0 431.428 892.428">
+  <g id="Group_2" data-name="Group 2" transform="translate(-1413.786 -899.786)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="199" height="199" transform="translate(1554.5 1052.786) rotate(45)" fill="#daa520" opacity="0.6"/>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(1704.5 1203.786) rotate(45)" fill="#daa520" stroke="#fff" stroke-width="1" opacity="0.5">
+      <rect width="199" height="199" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="198" fill="none"/>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(1554.5 1356.786) rotate(45)" fill="#daa520" stroke="#fff" stroke-width="1" opacity="0.4">
+      <rect width="199" height="199" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="198" fill="none"/>
+    </g>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(1704.5 1510.786) rotate(45)" fill="#daa520" stroke="#fff" stroke-width="1" opacity="0.3">
+      <rect width="199" height="199" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="198" fill="none"/>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(1704.5 899.786) rotate(45)" fill="#daa520" stroke="#fff" stroke-width="1" opacity="0.7">
+      <rect width="199" height="199" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="198" fill="none"/>
+    </g>
+  </g>
+</svg>

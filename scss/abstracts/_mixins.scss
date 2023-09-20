@@ -1,0 +1,20 @@
+
+@use "sass:map";
+
+@use '../abstracts/variables' as *;
+
+@mixin mq ($breakpoint) {
+  @media only screen and (min-width: #{$breakpoint}) {
+      @content;
+  }
+}
+
+@mixin aspect_ratio ($ratio) {
+  @supports not (aspect-ratio: #{map.get(map.get($aspect-ratio, $ratio), "value")}) {
+    padding-top: #{map.get(map.get($aspect-ratio, $ratio), "fallback")};
+  }
+
+  @supports (aspect-ratio: #{map.get(map.get($aspect-ratio, $ratio), "value")}) {
+    aspect-ratio: #{map.get(map.get($aspect-ratio, $ratio), "value")};
+  }
+}
